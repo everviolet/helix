@@ -78,8 +78,8 @@ markup = 'text'
 'ui.window' = 'surface0'
 'ui.text' = 'text'
 'ui.text.focus' = { fg = 'text', bg = 'surface0', modifiers = ['bold'] }
-'ui.text.inactive' = 'overlay1' 
-'ui.text.dirctory' = 'blue' 
+'ui.text.inactive' = 'overlay1'
+'ui.text.directory' = 'blue'
 'ui.virtual' = 'overlay0'
 'ui.virtual.ruler' = { bg = 'surface0' }
 'ui.virtual.indent-guide' = 'surface0'
@@ -87,7 +87,7 @@ markup = 'text'
 'ui.virtual.jump-label' = { fg = 'accent', modifiers = ['bold'] }
 'ui.menu' = {fg = 'text', bg = 'mantle'}
 'ui.menu.scroll' = 'accent'
-'ui.selection' = {fg = 'base', bg = 'surface1'}
+'ui.selection' = {fg = 'text', bg = 'surface1'}
 'ui.highlight' =  { bg = 'surface1', modifiers = ['bold'] }
 'ui.cursorline' = { bg = 'surface0'}
 'ui.cursorcolumn' = { bg = 'surface0'}
