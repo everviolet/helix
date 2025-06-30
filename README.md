@@ -1,6 +1,6 @@
 <h3 align="center">
 	<img src="https://github.com/everviolet/.github/raw/main/assets/logo-circle.png" width="100" alt="Logo"/><br/>
-	Evergarden for <a href="helix">https://github.com/helix-editor/helix</a>
+	Evergarden for <a href="https://github.com/helix-editor/helix">helix</a>
 </h3>
 
 <p align="center">
@@ -26,20 +26,20 @@
 <details>
 <summary>Spring</summary>
 <img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/spring.webp"/>
+</details>
 <details>
 <summary>Summer</summary>
 <img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/spring.webp"/>
 </details>
-</details>
 
 ### Usage
-The themes can be located in the [themes/](https://github.com/everviolet/helix/tree/main/themes) folder
+The themes can be located in the [themes/](https://github.com/everviolet/helix/tree/main/themes) folder of the repository
 
 Copy the themes you would like to use to...
 
 | Operating System |      Directory Path      |
 | ---------------- | ------------------------ |
-| Windows          | `%APPDATA\helix\themes\` |
+| Windows          | `%AppData%\helix\themes\` |
 | Linux, MacOS     | `~/.config/helix/themes/` |
 
 ### Thanks to <3
