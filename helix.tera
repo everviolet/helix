@@ -1,0 +1,131 @@
+---
+whiskers:
+  version: ^2.0.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/evergarden_{{flavor.identifier}}_{{accent}}.toml"
+---
+{% set accent = flavor.colors[accent] -%}
+
+# ------------------- #
+# Syntax Highlighting #
+# ------------------- #
+attribute = 'cherry'
+type = {fg = 'yellow', modifiers = ['italic']}
+constructor = 'green'
+constant = 'pink'
+string = 'lime'
+'string.regexp' = 'yellow'
+'string.special' = 'aqua'
+'string.special.path' = 'blue'
+'string.special.url' = 'blue'
+comment = {fg = 'overlay2', modifiers = ['italic']}
+variable = 'text'
+'variable.builtin' = 'pink'
+'variable.other.member' = 'skye'
+label = {fg = 'red', modifiers = ['italic']}
+punctuation = 'overlay1'
+'punctuation.special' = 'aqua'
+keyword = {fg = 'red', modifiers = ['italic']}
+'keyword.operator' = 'orange'
+'keyword.directive' = 'cherry'
+operator = 'subtext0'
+function = 'green'
+'function.builtin' = 'pink'
+'function.macro' = 'aqua'
+tag = 'skye'
+namespace = 'snow'
+special = 'lime'
+markup = 'text'
+'markup.heading' = 'red'
+'markup.heading.1' = 'red'
+'markup.heading.2' = 'orange'
+'markup.heading.3' = 'yellow'
+'markup.heading.4' = 'green'
+'markup.heading.5' = 'aqua'
+'markup.heading.6' = 'blue'
+'markup.list' = 'overlay1'
+'markup.list.checked' = 'green'
+'markup.list.unchecked' = 'overlay1'
+'markup.bold' = {fg = 'aqua', modifiers = ['bold']}
+'markup.italic' = {fg = 'aqua', modifiers = ['italic']}
+'markup.link' = 'blue'
+'markup.link.label' = {fg = 'blue', modifiers = ['italic']}
+'markup.quote' = {fg = 'overlay2', modifiers = ['italic']}
+'markup.raw' = 'overlay1'
+'diff.plus' = 'green'
+'diff.minus' = 'red'
+'diff.delta' = 'aqua'
+
+# -------------- #
+# User Interface #
+# -------------- #
+'ui.background' = {fg = 'text', bg = 'base'}
+'ui.background.separator' = {bg = 'surface0'}
+'ui.cursor' = {fg = 'base', bg = 'accent', modifiers = ['slow_blink']}
+'ui.linenr' = 'surface2'
+'ui.statusline' = {fg = 'overlay2', bg = 'mantle'}
+'ui.statusline.normal' = {fg = 'base', bg = 'aqua', modifiers = ['bold']}
+'ui.statusline.insert' = {fg = 'base', bg = 'text', modifiers = ['bold']}
+'ui.statusline.select' = {fg = 'base', bg = 'pink', modifiers = ['bold']}
+'ui.bufferline' = {fg = 'subtext0', bg = 'mantle'}
+'ui.bufferline.active' = {fg = 'text', bg = 'base', underline = {color = 'text', style = 'line'}}
+'ui.bufferline.background' = {bg = 'crust'}
+'ui.help' = {fg = 'overlay2', bg = 'surface0' }
+'ui.popup' = {fg = 'text', bg = 'mantle'}
+'ui.popup.header' = {fg = 'subtext0'}
+'ui.window' = 'surface0'
+'ui.text' = 'text'
+'ui.text.focus' = { fg = 'text', bg = 'surface0', modifiers = ['bold'] }
+'ui.text.inactive' = 'overlay1'
+'ui.text.directory' = 'blue'
+'ui.virtual' = 'overlay0'
+'ui.virtual.ruler' = { bg = 'surface0' }
+'ui.virtual.indent-guide' = 'surface0'
+'ui.virtual.inlay-hint' = { fg = 'surface1', bg = 'mantle' }
+'ui.virtual.jump-label' = { fg = 'accent', modifiers = ['bold'] }
+'ui.menu' = {fg = 'text', bg = 'mantle'}
+'ui.menu.scroll' = 'accent'
+'ui.selection' = {fg = 'text', bg = 'surface1'}
+'ui.highlight' =  { bg = 'surface1', modifiers = ['bold'] }
+'ui.cursorline' = { bg = 'surface0'}
+'ui.cursorcolumn' = { bg = 'surface0'}
+warning = 'yellow'
+error = 'red'
+info = 'aqua'
+hint = 'skye'
+'diagnostic.hint' = 'skye'
+'diagnostic.info' = 'aqua'
+'diagnostic.warning' = 'yellow'
+'diagnostic.error' = 'red'
+'diagnostic.unnecessary' = {fg = 'overlay0', modifiers = ['italic']}
+'diagnostic.deprecated' = {fg = 'overlay0', modifiers = ['crossed_out']}
+
+[palette]
+red = '#{{flavor.colors.red.hex}}'
+orange = '#{{flavor.colors.orange.hex}}'
+yellow = '#{{flavor.colors.yellow.hex}}'
+lime = '#{{flavor.colors.lime.hex}}'
+green = '#{{flavor.colors.green.hex}}'
+aqua = '#{{flavor.colors.aqua.hex}}'
+skye = '#{{flavor.colors.skye.hex}}'
+snow = '#{{flavor.colors.snow.hex}}'
+blue = '#{{flavor.colors.blue.hex}}'
+purple = '#{{flavor.colors.purple.hex}}'
+pink = '#{{flavor.colors.pink.hex}}'
+cherry = '#{{flavor.colors.cherry.hex}}'
+text = '#{{flavor.colors.text.hex}}'
+subtext1 = '#{{flavor.colors.subtext1.hex}}'
+subtext0 = '#{{flavor.colors.subtext0.hex}}'
+overlay2 = '#{{flavor.colors.overlay2.hex}}'
+overlay1 = '#{{flavor.colors.overlay1.hex}}'
+overlay0 = '#{{flavor.colors.overlay0.hex}}'
+surface2 = '#{{flavor.colors.surface2.hex}}'
+surface1 = '#{{flavor.colors.surface1.hex}}'
+surface0 = '#{{flavor.colors.surface0.hex}}'
+base = '#{{flavor.colors.base.hex}}'
+mantle = '#{{flavor.colors.mantle.hex}}'
+crust = '#{{flavor.colors.crust.hex}}'
+
+accent = '#{{accent.hex}}'
