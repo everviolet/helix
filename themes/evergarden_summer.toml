@@ -1,0 +1,30 @@
+# Evergarden Helix Theme (Summer Variant)
+# Syntax highlighting
+# -------------------
+inherits = "evergarden_fall"
+
+[palette]
+red = '#C0696B'
+orange = '#C1866B'
+yellow = '#BC9C6B'
+lime = '#A7AF70'
+green = '#91AC75'
+aqua = '#7BAA92'
+skye = '#79A39B'
+snow = '#7FA0AA'
+blue = '#8CA0BB'
+purple = '#AB9AC6'
+pink = '#CA9EBD'
+cherry = '#CEABBF'
+text = '#171C1F'
+subtext1 = '#415055'
+subtext0 = '#526469'
+overlay2 = '#63787D'
+overlay1 = '#758A90'
+overlay0 = '#879DA4'
+surface2 = '#9CB2B8'
+surface1 = '#B4C6CC'
+surface0 = '#CED9E0'
+base = '#D7E1EB'
+mantle = '#C8D5E1'
+crust = '#BDCBDB'

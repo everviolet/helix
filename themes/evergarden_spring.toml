@@ -1,0 +1,11 @@
+# Evergarden Helix Theme (Spring Variant)
+# Syntax highlighting
+# -------------------
+inherits = "evergarden_fall"
+
+[palette]
+surface1 = '#3E4A4F'
+surface0 = '#343E43'
+base = '#2B3438'
+mantle = '#232A2E'
+crust = '#1C2225'

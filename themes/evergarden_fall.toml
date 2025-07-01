@@ -1,0 +1,165 @@
+# Evergarden Helix Theme (Fall Variant)
+# Syntax highlighting
+# -------------------
+"attribute" = "orange"
+"type" = "yellow"
+"type.enum.variant" = "lime"
+
+"constructor" = "aqua"
+
+"constant" = "pink"
+"constant.character" = "skye"
+"constant.character.escape" = "pink"
+
+"string" = "green"
+"string.regexp" = "orange"
+"string.special" = "blue"
+"string.special.symbol" = "red"
+
+"comment" = { fg = "overlay1", modifiers = ["italic"] }
+
+"variable" = "text"
+"variable.parameter" = { fg = "overlay2", modifiers = ["italic"] }
+"variable.builtin" = "red"
+"variable.other.member" = "aqua"
+
+"label" = "yellow"
+
+"punctuation" = "overlay2"
+"punctuation.special" = "overlay2"
+
+"keyword" = "red"
+"keyword.control.conditional" = { fg = "red", modifiers = ["italic"] }
+
+"operator" = "subtext0"
+
+"function" = "green"
+"function.macro" = "cherry"
+
+"tag" = "skye"
+
+"namespace" = { fg = "snow", modifiers = ["italic"] }
+
+"special" = "blue"
+
+# Markup headings and styling
+"markup.heading.1" = "purple"
+"markup.heading.2" = "pink"
+"markup.heading.3" = "orange"
+"markup.heading.4" = "yellow"
+"markup.heading.5" = "aqua"
+"markup.heading.6" = "blue"
+"markup.list" = "lime"
+"markup.list.unchecked" = "overlay1"
+"markup.list.checked" = "green"
+"markup.bold" = { fg = "yellow", modifiers = ["bold"] }
+"markup.italic" = { fg = "yellow", modifiers = ["italic"] }
+"markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
+"markup.link.text" = "snow"
+"markup.link.label" = "purple"
+"markup.raw" = "green"
+"markup.quote" = "orange"
+
+"diff.plus" = "green"
+"diff.minus" = "red"
+"diff.delta" = "blue"
+
+# User Interface
+# --------------
+"ui.background" = { fg = "text", bg = "base" }
+
+"ui.linenr" = { fg = "overlay0" }
+"ui.linenr.selected" = { fg = "snow" }
+
+"ui.statusline" = { fg = "subtext1", bg = "mantle" }
+"ui.statusline.inactive" = { fg = "overlay1", bg = "mantle" }
+"ui.statusline.normal" = { fg = "base", bg = "purple", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "base", bg = "blue", modifiers = ["bold"] }
+
+"ui.popup" = { fg = "text", bg = "surface1" }
+"ui.window" = { fg = "crust" }
+"ui.help" = { fg = "overlay1", bg = "surface1" }
+
+"ui.bufferline" = { fg = "subtext0", bg = "mantle" }
+"ui.bufferline.active" = { fg = "purple", bg = "base", underline = { color = "purple", style = "line" } }
+"ui.bufferline.background" = { bg = "crust" }
+
+"ui.text" = "text"
+"ui.text.focus" = { fg = "text", bg = "surface1", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "overlay2" }
+"ui.text.directory" = { fg = "skye" }
+
+"ui.virtual" = "overlay0"
+"ui.virtual.ruler" = { bg = "surface1" }
+"ui.virtual.indent-guide" = "surface1"
+"ui.virtual.inlay-hint" = { fg = "overlay1", bg = "mantle" }
+"ui.virtual.jump-label" = { fg = "rosewater", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "surface2" }
+
+"ui.cursor" = { fg = "base", bg = "secondary_cursor" }
+"ui.cursor.primary" = { fg = "base", bg = "yellow" }
+"ui.cursor.match" = { fg = "pink", modifiers = ["bold"] }
+
+"ui.cursor.primary.normal" = { fg = "base", bg = "yellow" }
+"ui.cursor.primary.insert" = { fg = "base", bg = "green" }
+"ui.cursor.primary.select" = { fg = "base", bg = "blue" }
+
+"ui.cursor.normal" = { fg = "base", bg = "secondary_cursor_normal" }
+"ui.cursor.insert" = { fg = "base", bg = "secondary_cursor_insert" }
+"ui.cursor.select" = { fg = "base", bg = "secondary_cursor_select" }
+
+"ui.cursorline.primary" = { bg = "surface0" }
+
+"ui.highlight" = { bg = "surface1", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "overlay1", bg = "surface1" }
+"ui.menu.selected" = { fg = "text", bg = "surface2", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "aqua", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "skye", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+error = "red"
+warning = "yellow"
+info = "aqua"
+hint = "skye"
+
+[palette]
+# Core accents
+red = "#F57F82"
+orange = "#F7A182"
+yellow = "#F5D098"
+lime = "#DBE6AF"
+green = "#CBE3B3"
+aqua = "#B3E3CA"
+skye = "#B3E6DB"
+snow = "#AFD9E6"
+blue = "#B2CAED"
+purple = "#D2BDF3"
+pink = "#F3C0E5"
+cherry = "#F6CEE5"
+
+# Fall shades
+text = "#F8F9E8"
+subtext1 = "#ADC9BC"
+subtext0 = "#96B4AA"
+overlay2 = "#839E9A"
+overlay1 = "#6F8788"
+overlay0 = "#58686D"
+surface2 = "#4A585C"
+surface1 = "#374145"
+surface0 = "#2B3337"
+base = "#232A2E"
+mantle = "#1C2225"
+crust = "#171C1F"
+
+# Secondary cursors
+cursorline = "#323C40"
+secondary_cursor = "#BDB6B0"
+secondary_cursor_select = "#8A9686"
+secondary_cursor_normal = "#BDB6B0"
+secondary_cursor_insert = "#7BAA92"

@@ -1,0 +1,9 @@
+# Evergarden Helix Theme (Winter Variant)
+# Syntax highlighting
+# -------------------
+inherits = "evergarden_fall"
+
+[palette]
+surface0 = '#262F33'
+base = '#1E2528'
+mantle = '#191E21'
