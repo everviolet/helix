@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/preview.png"/>
+	<img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/preview.webp"/>
 </p>
 
 ### Previews
@@ -29,7 +29,7 @@
 </details>
 <details>
 <summary>Summer</summary>
-<img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/spring.webp"/>
+<img src="https://raw.githubusercontent.com/everviolet/helix/main/assets/previews/summer.webp"/>
 </details>
 
 ### Usage
